@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Aravindh22</title>
+  <meta name="description" content="Portfolio of Aravindhan Balamurugan, B.Tech Electronics and Communication Engineering student at SRM IST, building embedded, IoT and communication-protocol based systems with ESP32, STM32, CAN, Zigbee and Firebase." />
+  <meta name="author" content="Aravindhan Balamurugan" />
+  <meta name="theme-color" content="#0b0d17" />
+  <meta property="og:title" content="Aravindhan Balamurugan | Embedded Systems & IoT Engineer" />
+  <meta property="og:description" content="Embedded, IoT and communication-systems projects: CAN battery monitoring, Zigbee automation, ambulance-priority signalling and more." />
+  <meta property="og:type" content="website" />
+
+  <!-- Free fonts and icons (Google Fonts + Font Awesome CDN) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ================= NAVIGATION ================= -->
+  <header class="site-header" id="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Aravindhan Balamurugan - home"></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow"><span class="dot"></span> #include &lt;portfolio.h&gt;</p>
+          <h1 id="hero-title">Hi, I'm  <span class="gradient-text">Aravindhan Balamurugan</span></h1>
+          <p class="hero-role">  Embedded · IoT Developer · PCB Designer</p>
+          <p class="hero-intro">
+            Engineering reliable embedded systems and connected IoT solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-down"></i></a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+
+          <div class="social-row">
+            <!-- Set these URLs in script.js (LINKS section) -->
+            <a href="#" class="social" data-link="github" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="social" data-link="linkedin" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:ab1459@srmist.edu.in" class="social" aria-label="Send an email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Profile photo: set PROFILE_IMAGE in script.js. Initials show until then. -->
+        <div class="hero-visual reveal" style="--delay:.15s">
+          <div class="avatar-ring">
+            <div class="avatar" id="avatar" role="img" aria-label="Profile photo placeholder">
+              <span class="avatar-initials">AB</span>
+            </div>
+          </div>
+          <ul class="stat-chips" aria-label="Highlights">
+            <li><strong>9.31</strong><span>CGPA</span></li>
+            <li><strong>4+</strong><span>Projects</span></li>
+            <li><strong>2</strong><span>Static awards</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">Who I am</p>
+          <h2 id="about-title">About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Final year ECE student at SRM KTR, specializing in Embedded Systems, Firmware Development, IoT, and PCB Design.
+              My work sits where hardware
+              meets software: microcontrollers, sensors, wireless protocols and the cloud or mobile
+              apps that connect them.
+            </p>
+            <p>I am passionate about leveraging AI tools to optimize hardware performance and validation workflows, with a strong focus on problem-solving, rapid prototyping, and hardware-software integration.
+              My work coImbines custom PCB design, embedded firmware, and intelligent systems to build practical, real-world solutions.</p>
+          </div>
+          <ul class="about-facts reveal" style="--delay:.1s">
+            <li><i class="fa-solid fa-microchip"></i><div><strong>Focus</strong><span>Embedded systems, IoT, communication protocols</span></div></li>
+            <li><i class="fa-solid fa-flag-checkered"></i><div><strong>Racing</strong><span>Formula Hybrid team, low-voltage electrical</span></div></li>
+            <li><i class="fa-solid fa-industry"></i><div><strong>Industry</strong><span>Hyundai intern, P/Train Maintenance</span></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section class="section alt" id="education" aria-labelledby="edu-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">Academic background</p>
+          <h2 id="edu-title">Education</h2>
+        </div>
+        <div class="card-grid three">
+          <article class="card edu-card reveal">
+            <div class="icon-box"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3>B.Tech, Electronics and Communication Engineering</h3>
+            <p class="muted">SRM Institute of Science and Technology, Chennai</p>
+            <p class="score">9.31 <small>/ 10 CGPA</small></p>
+          </article>
+          <article class="card edu-card reveal" style="--delay:.08s">
+            <div class="icon-box"><i class="fa-solid fa-book-open"></i></div>
+            <h3>Higher Secondary Education</h3>
+            <p class="muted">SRM Public School, Chennai</p>
+            <p class="score">87<small>%</small></p>
+          </article>
+          <article class="card edu-card reveal" style="--delay:.16s">
+            <div class="icon-box"><i class="fa-solid fa-school"></i></div>
+            <h3>Secondary Education</h3>
+            <p class="muted">Loyola Academy CBSE School, Chennai</p>
+            <p class="score">80<small>%</small></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">What I work with</p>
+          <h2 id="skills-title">Technical Skills</h2>
+        </div>
+        <div class="card-grid two">
+          <article class="card skill-card reveal">
+            <h3><i class="fa-solid fa-code"></i> Languages &amp; Backend</h3>
+            <ul class="badges">
+              <li>C</li><li>Python</li><li>C++</li><li>MySQL</li><li>MongoDB</li><li>FastAPI</li>
+            </ul>
+          </article>
+          <article class="card skill-card reveal" style="--delay:.06s">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools</h3>
+            <ul class="badges">
+              <li>Git / GitHub</li><li>Linux</li><li>STM32CubeIDE</li><li>Arduino IDE</li><li>Blynk IoT</li>
+            </ul>
+          </article>
+          <article class="card skill-card reveal">
+            <h3><i class="fa-solid fa-tower-broadcast"></i> Protocols</h3>
+            <ul class="badges">
+              <li>I²C</li><li>SPI</li><li>UART</li><li>Thread</li><li>MQTT</li>
+            </ul>
+          </article>
+          <article class="card skill-card reveal" style="--delay:.06s">
+            <h3><i class="fa-solid fa-drafting-compass"></i> Design &amp; Simulation</h3>
+            <ul class="badges">
+              <li>EasyEDA</li><li>Altium Designer</li><li>CST Studio Suite</li><li>Scilab</li>
+            </ul>
+          </article>
+          <article class="card skill-card wide reveal">
+            <h3><i class="fa-solid fa-microchip"></i> Hardware Platforms</h3>
+            <ul class="badges">
+              <li>STM32 Blue Pill</li><li>ESP8266</li><li>ESP32-CAM</li><li>Teensy 4.1 (ARM Cortex-M7)</li><li>ATtiny85</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section class="section alt" id="experience" aria-labelledby="exp-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">Where I've worked</p>
+          <h2 id="exp-title">Experience &amp; Internship</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="card">
+              <div class="exp-top">
+                <div>
+                  <h3>Intern</h3>
+                  <p class="company">Hyundai</p>
+                </div>
+                <span class="pill">Jun 2026</span>
+              </div>
+              <ul class="check-list">
+                <li>Learned and developed PLC ladder logic for industrial automation systems using GX Works2.</li>
+                <li>Acquired practical understanding of transmission gear design, assembly and maintenance in automotive powertrains.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal" style="--delay:.08s">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="card">
+              <div class="exp-top">
+                <div>
+                  <h3>Electrical – LV Member <small>(Full-time)</small></h3>
+                  <p class="company">Hybrutos Racing</p>
+                </div>
+                <span class="pill">Mar 2025 – May 2026</span>
+              </div>
+              <p class="muted">The official Formula Hybrid team of SRM Institute of Science &amp; Technology, Chennai.</p>
+              <ul class="check-list">
+                <li>Designed, assembled and tested critical safety circuits: Precharge Circuit, Discharge Circuit, Shutdown Circuit, Tractive System Active Light (TSAL), Insulation Monitoring Device (IMD) and Brake Over Travel Switch (BOTS).</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section" id="projects" aria-labelledby="proj-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">Selected work</p>
+          <h2 id="proj-title">Featured Projects</h2>
+        </div>
+        <div class="card-grid two">
+
+          <!-- Project 1 -->
+          <article class="card project-card reveal">
+            <div class="project-top">
+              <span class="icon-box"><i class="fa-solid fa-truck-medical"></i></span>
+              <div class="project-links">
+                <a href="#" class="icon-link" data-link="project1" aria-label="Ambulance project on GitHub"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <h3>Real-Time Communication between Ambulance and Traffic Signal</h3>
+            <p>An ESP32-based real-time system that gives ambulances priority at traffic signals, using Firebase to link emergency vehicles and signals.</p>
+            <ul class="check-list compact">
+              <li>Built an MIT App Inventor interface to send ambulance priority requests and coordinate signal control.</li>
+              <li>Aimed at reducing delays in emergency route clearance.</li>
+            </ul>
+            <ul class="badges small"><li>ESP32</li><li>Firebase</li><li>MIT App Inventor</li></ul>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card project-card reveal" style="--delay:.08s">
+            <div class="project-top">
+              <span class="icon-box"><i class="fa-solid fa-car-burst"></i></span>
+              <div class="project-links">
+                <a href="#" class="icon-link" data-link="project2" aria-label="Smart vehicle project on GitHub"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <h3>AI-Based Smart Vehicle and Accident Detection System</h3>
+            <p>An offline, voice-controlled smart vehicle system with adaptive music selection based on weather and ambient-light adjustment.</p>
+            <ul class="check-list compact">
+              <li>Accident detection using MPU6050, vibration and airbag sensors.</li>
+              <li>GPS location tracking with real-time alerts shown in an Android Studio app via Firebase.</li>
+            </ul>
+            <ul class="badges small"><li>AI Thinker VC02</li><li>Android Studio</li><li>Edge AI</li><li>Firebase</li><li>MPU6050</li></ul>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card project-card reveal">
+            <div class="project-top">
+              <span class="icon-box"><i class="fa-solid fa-car-battery"></i></span>
+              <div class="project-links">
+                <a href="#" class="icon-link" data-link="project3" aria-label="Battery monitoring project on GitHub"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <h3>Secure Multi-Node Battery Monitoring System Using CAN</h3>
+            <p>An ESP32-based multi-node battery monitoring system that transmits sensor data in real time over a CAN bus.</p>
+            <ul class="check-list compact">
+              <li>Implemented XOR error detection for data integrity.</li>
+              <li>Implemented Go-Back-N ARQ with a 3-frame sliding window, cumulative ACK, timeout detection and retransmission.</li>
+            </ul>
+            <ul class="badges small"><li>ESP32</li><li>CAN</li><li>BMS</li><li>SOC/SOH</li></ul>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="card project-card reveal" style="--delay:.08s">
+            <div class="project-top">
+              <span class="icon-box"><i class="fa-solid fa-house-signal"></i></span>
+              <div class="project-links">
+                <a href="#" class="icon-link" data-link="project4" aria-label="Zigbee smart home project on GitHub"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <h3>Zigbee-Based Smart Home Automation System</h3>
+            <p>An ESP32-C6 smart home system using Zigbee for wireless communication between a coordinator and a multi-channel relay end device.</p>
+            <ul class="check-list compact">
+              <li>Touchscreen-based control with targeted Zigbee endpoint communication.</li>
+              <li>Remotely controls four appliances.</li>
+            </ul>
+            <ul class="badges small"><li>ESP32-C6</li><li>Zigbee</li><li>WiFi</li><li>IFTTT</li><li>Relay Control</li></ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+    <section class="section alt" id="achievements" aria-labelledby="ach-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-kicker">Recognition &amp; research</p>
+          <h2 id="ach-title">Certifications &amp; Achievements</h2>
+        </div>
+        <div class="card-grid two">
+          <article class="card ach-card reveal">
+            <i class="fa-solid fa-trophy"></i>
+            <div>
+              <h3>Formula Imperial 2025: 1st place in two static awards</h3>
+              <p>Competed in Coimbatore with the electrical team, focusing on the low-voltage systems of our hybrid vehicle. Won Best Engineering Design and Best Cost and Manufacturing.</p>
+            </div>
+          </article>
+          <article class="card ach-card reveal" style="--delay:.06s">
+            <i class="fa-solid fa-file-lines"></i>
+            <div>
+              <h3>Research paper presented at ICCSN, Trivandrum</h3>
+              <p>“A Wearable Sensor-Based System for Swimming Stroke Recognition and Motion Analysis”, presented at the International Conference on Communication Systems and Networks.</p>
+            </div>
+          </article>
+          <article class="card ach-card reveal">
+            <i class="fa-solid fa-bolt"></i>
+            <div>
+              <h3>Industry partnership project (ongoing)</h3>
+              <p>Designing and simulating a 60 V Breakdown Trench MOSFET using Sentaurus TCAD, with analysis of Vbd, Vth and I-V characteristics.</p>
+            </div>
+          </article>
+          <article class="card ach-card reveal" style="--delay:.06s">
+            <i class="fa-solid fa-medal"></i>
+            <div>
+              <h3>TANIFET 48-Hour Hackathon: Round 2</h3>
+              <p>Developed an IoT-based fiber surveillance system using IMU6050, vibration sensors and LoRa for real-time anomaly detection and GIS-based incident mapping.</p>
+            </div>
+          </article>
+          <article class="card ach-card reveal">
+            <i class="fa-solid fa-scale-balanced"></i>
+            <div>
+              <h3>SIH Internal Hackathon</h3>
+              <p>Built a solution to detect and prevent weight tampering in measuring instruments using a load cell and reed switch.</p>
+            </div>
+          </article>
+          <!-- Certifications: none are listed on the resume. Replace this card when you have some. -->
+          <article class="card ach-card placeholder reveal" style="--delay:.06s">
+            <i class="fa-solid fa-certificate"></i>
+            <div>
+              <h3>[Add Certifications]</h3>
+              <p>No certifications were listed on the resume. Add course or certification details here.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+    <div class="container">
+
+      <div class="section-head reveal">
+        <p class="section-kicker">Let's talk</p>
+        <h2 id="contact-title">Contact</h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- LEFT: Contact Information -->
+        <div class="contact-info reveal">
+          <p>
+            I'm looking for opportunities in embedded systems, IoT and electronics.
+            Feel free to reach out and connect with me.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:ab1459@srmist.edu.in">ab1459@srmist.edu.in</a>
+            </li>
+
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+917904081476">+91 79040 81476</a>
+            </li>
+
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Chennai, India</span>
+            </li>
+
+            <li>
+              <i class="fa-brands fa-github"></i>
+              <a href="#" data-link="github">GitHub</a>
+            </li>
+
+            <li>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <a href="#" data-link="linkedin">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- RIGHT: Resume -->
+        <div class="card resume-card reveal" style="--delay:.1s">
+
+          <div class="icon-box">
+            <i class="fa-solid fa-file-arrow-down"></i>
+          </div>
+
+          <h3>My Resume</h3>
+
+          <a
+            href="https://drive.google.com/file/d/1p1_YBmPtEVFX6UuO15HuF1AQ-pC_vC6A/view?usp=drive_link"
+            class="btn btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download
+            <i class="fa-solid fa-download"></i>
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Designed & Built by AB</p>
+      <div class="social-row">
+        <a href="#" class="social" data-link="github" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="social" data-link="linkedin" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:ab1459@srmist.edu.in" class="social" aria-label="Send an email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
